@@ -41,7 +41,7 @@ header.masthead .intro-text .intro-heading{
 
 section.sections{
     background-color: #FFF;
-    background: linear-gradient(to bottom right, #CEECF5, #D0A9F5);
+    background: linear-gradient(to bottom right, #FFFFFF, #E6E6E6);
 }
 
 section.sections1{
@@ -67,7 +67,7 @@ section.sections1{
 .container .textUl{
     font-family: 'Philosopher', sans-serif;
     font-size: 150%;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -80,5 +80,6 @@ section.sections1{
 }
 
 .img2 {
-    border-radius: 80%;
+    border-radius: 20%;
+    margin-left: 30%;
 }
