@@ -1,0 +1,84 @@
+.navbar-brand {
+    height: 20%;
+    line-height: 200%;
+
+}
+
+.navbar-nav li a{
+    height: 20%;
+    line-height: 350%;
+
+}
+.navbar { 
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+header.masthead{
+    text-align:center;
+    color:#fff;
+    background-image:url(../img/Principal.jpg);
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-position:center center;
+    background-size:cover
+}
+
+header.masthead .intro-text {
+    padding-top:12%;
+    padding-bottom:12%
+}
+
+header.masthead .intro-text .intro-lead-in{
+    font-family: 'Modern Antiqua', cursive;
+    font-size: 300%;
+}
+
+header.masthead .intro-text .intro-heading{
+    font-family: 'Merienda', cursive;
+    font-size: 450%;
+}
+
+section.sections{
+    background-color: #FFF;
+    background: linear-gradient(to bottom right, #CEECF5, #D0A9F5);
+}
+
+section.sections1{
+    background-color: #E6E6E6;
+    background: linear-gradient(to bottom right, #D0A9F5, #CEECF5);
+}
+
+.container{
+    padding-top:10%;
+    padding-bottom:10%;
+}
+
+.container .textH2{
+    font-family: 'Modern Antiqua', cursive;
+    font-size: 250%;
+}
+
+.container .textP{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 150%;
+}
+
+.container .textUl{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 150%;
+    text-align: center;
+}
+
+
+.img1 {
+    border: ridge gold;
+    border-radius: 13em/30em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img2 {
+    border-radius: 80%;
+}
