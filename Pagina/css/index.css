@@ -1,11 +1,11 @@
 .navbar-brand {
-    height: 20%;
-    line-height: 200%;
+    height: 10%;
+    line-height: 180%;
 
 }
 
 .navbar-nav li a{
-    height: 20%;
+    height: 10%;
     line-height: 350%;
 
 }
@@ -31,12 +31,12 @@ header.masthead .intro-text {
 
 header.masthead .intro-text .intro-lead-in{
     font-family: 'Modern Antiqua', cursive;
-    font-size: 300%;
+    font-size: 280%;
 }
 
 header.masthead .intro-text .intro-heading{
     font-family: 'Merienda', cursive;
-    font-size: 450%;
+    font-size: 430%;
 }
 
 section.sections{
@@ -56,17 +56,17 @@ section.sections1{
 
 .container .textH2{
     font-family: 'Modern Antiqua', cursive;
-    font-size: 250%;
+    font-size: 230%;
 }
 
 .container .textP{
     font-family: 'Philosopher', sans-serif;
-    font-size: 150%;
+    font-size: 130%;
 }
 
 .container .textUl{
     font-family: 'Philosopher', sans-serif;
-    font-size: 150%;
+    font-size: 130%;
     text-align: left;0
 }
 
@@ -82,4 +82,9 @@ section.sections1{
 .img2 {
     border-radius: 20%;
     margin-left: 30%;
+}
+.pieDePagina{
+    padding-top:5%;
+    padding-bottom:5%;
+    background:black;
 }
