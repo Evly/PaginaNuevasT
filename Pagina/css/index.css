@@ -50,8 +50,8 @@ section.sections1{
 }
 
 .container{
-    padding-top:10%;
-    padding-bottom:10%;
+    padding-top:5%;
+    padding-bottom:5%;
 }
 
 .container .textH2{
@@ -74,7 +74,8 @@ section.sections1{
 .img1 {
     border: ridge Black;
     border-radius: 2em/3em;
-    text-align: center;
+    
+    
   
 }
 
@@ -84,12 +85,14 @@ section.sections1{
 }
 
 .pieDePagina{
-    padding-top:5%;
-    padding-bottom:5%;
     background:black;
 }
+footer .container{
+  padding-top:1%;
+    padding-bottom:1%; 
+}
 .fab {
-    font-size: 40px;
+    font-size: 35px;
     color: white;
     
 } 
