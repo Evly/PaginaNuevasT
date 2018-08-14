@@ -20,7 +20,7 @@
 .portada{
    background: url(../img/Principal.jpg) no-repeat fixed center;
    background-size: cover;
-   height: 100%;
+   height: auto;
    width: 100% ;    
 }
 
