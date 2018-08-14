@@ -9,12 +9,11 @@
     line-height: 350%;
 
 }
+
 .navbar { 
     padding-bottom: 0;
     margin-bottom: 0;
 }
-
-
 
 .portada{
     background: url(../img/Principal.jpg) no-repeat fixed center;
@@ -44,7 +43,7 @@ header.masthead .intro-text .intro-heading{
 
 section.sections{
     background-color: #FFF;
-    background: linear-gradient(to bottom right, #E0E6F8, #FFF);
+    background: linear-gradient(to bottom right, #F5D0A9, #FFF);
 }
 
 section.sections1{
@@ -77,9 +76,6 @@ section.sections1{
 .img1 {
     border: ridge Black;
     border-radius: 2em/3em;
-    
-    
-  
 }
 
 .img2 {
@@ -88,14 +84,16 @@ section.sections1{
 }
 
 .pieDePagina{
+    font-family: 'Philosopher', sans-serif;
     background:black;
 }
+
 footer .container{
   padding-top:1%;
     padding-bottom:1%; 
 }
+
 .fab {
     font-size: 35px;
-    color: white;
-    
+    color: white;    
 }
