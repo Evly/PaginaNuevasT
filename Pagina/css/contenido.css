@@ -41,9 +41,20 @@ footer .textH3{
     padding-bottom:8%;
 }
 
-.container .textH2{
+.container .textH1{
     font-family: 'Modern Antiqua', cursive;
     font-size: 300%;
+}
+
+.container .textH2{
+    font-family: 'Modern Antiqua', cursive;
+    font-size: 250%;
+}
+
+.container .textUl{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 130%;
+    text-align: left;
 }
 
 .form-group{
@@ -51,9 +62,12 @@ footer .textH3{
     font-size: 130%;
 }
 
-section.sections1{
-    background-color: #E6E6E6;
-    background: linear-gradient(to bottom right, #A9F5BC, #FFF);
+section.sections{
+    background-color: #FFF;
+    background: linear-gradient(to bottom right, #F8E0E0, #FFF);
 }
 
-
+section.sections1{
+    background-color: #E6E6E6;
+    background: linear-gradient(to bottom right, #FFF, #E6E6E6);
+}
