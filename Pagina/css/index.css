@@ -67,7 +67,7 @@ section.sections1{
 .container .textUl{
     font-family: 'Philosopher', sans-serif;
     font-size: 130%;
-    text-align: left;0
+    text-align: left;
 }
 
 
@@ -83,8 +83,10 @@ section.sections1{
     border-radius: 20%;
     margin-left: 30%;
 }
+
 .pieDePagina{
     padding-top:5%;
     padding-bottom:5%;
     background:black;
 }
+
