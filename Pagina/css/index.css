@@ -14,20 +14,23 @@
     margin-bottom: 0;
 }
 
+
+
+.portada{
+    background: url(../img/Principal.jpg) no-repeat fixed center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 100%;
+   width: 100% ;    
+}
+
 header.masthead{
     text-align:center;
     color:#fff;
-    background-image:url(../img/Principal.jpg);
-    background-repeat:no-repeat;
-    background-attachment:scroll;
-    background-position:center center;
-    background-size:cover
 }
 
-header.masthead .intro-text {
-    padding-top:12%;
-    padding-bottom:12%
-}
 
 header.masthead .intro-text .intro-lead-in{
     font-family: 'Modern Antiqua', cursive;
@@ -50,8 +53,8 @@ section.sections1{
 }
 
 .container{
-    padding-top:5%;
-    padding-bottom:5%;
+    padding-top:10%;
+    padding-bottom:10%;
 }
 
 .container .textH2{
@@ -95,4 +98,4 @@ footer .container{
     font-size: 35px;
     color: white;
     
-} 
+}
