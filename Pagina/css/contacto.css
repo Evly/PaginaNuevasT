@@ -29,6 +29,11 @@ footer .container{
 footer .textH3{
     text-align: center;
     font-size: 150%;
+    color: aliceblue;
+}
+
+footer .textH4{
+    color:#848484;
 }
 
 .fab {
@@ -37,7 +42,7 @@ footer .textH3{
 }
 
 .container{
-    padding-top:8%;
+    padding-top:15%;
     padding-bottom:8%;
 }
 

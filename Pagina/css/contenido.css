@@ -1,7 +1,6 @@
 .navbar-brand {
     height: 10%;
     line-height: 180%;
-
 }
 
 .navbar-nav li a{
@@ -9,6 +8,7 @@
     line-height: 350%;
 
 }
+
 .navbar { 
     font-family: 'Modern Antiqua', cursive;
     font-size: 110%;
@@ -29,6 +29,11 @@ footer .container{
 footer .textH3{
     text-align: center;
     font-size: 150%;
+    color: aliceblue;
+}
+
+footer .textH4{
+    color:#848484;
 }
 
 .fab {
@@ -37,7 +42,7 @@ footer .textH3{
 }
 
 .container{
-    padding-top:8%;
+    padding-top:15%;
     padding-bottom:8%;
 }
 
