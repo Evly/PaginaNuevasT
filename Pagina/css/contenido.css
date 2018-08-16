@@ -55,6 +55,10 @@ footer .textH4{
     font-family: 'Modern Antiqua', cursive;
     font-size: 250%;
 }
+.container .textBoton{
+    font-family: 'Modern Antiqua', cursive;
+    font-size: 140%;
+}
 
 .container .textUl{
     font-family: 'Philosopher', sans-serif;
