@@ -87,7 +87,7 @@ section.sections1{
 .btn-default{
     border-color: #717374;
     font-family: 'Philosopher', sans-serif;
-    background: linear-gradient(to bottom right, #CECEF6, #FFF);
+    background: linear-gradient(to bottom right, #E0E6F8, #F8E6E0);
 }
 
 .btn-default:hover{
