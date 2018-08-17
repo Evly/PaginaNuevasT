@@ -87,7 +87,7 @@ section.sections1{
 .btn-default{
     border-color: #717374;
     font-family: 'Philosopher', sans-serif;
-background: linear-gradient(to bottom right, #CECEF6, #FFF);
+    background: linear-gradient(to bottom right, #CECEF6, #FFF);
 }
 
 .btn-default:hover{
@@ -128,4 +128,14 @@ background: linear-gradient(to bottom right, #CECEF6, #FFF);
   transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     font-family: 'Modern Antiqua', cursive;
+}
+
+.modal-title{
+    font-family: 'Modern Antiqua', cursive;
+    text-align-last: center;
+    font-size: 180%;
+}
+
+.modal-body{
+    font-family: 'Philosopher', sans-serif;
 }
