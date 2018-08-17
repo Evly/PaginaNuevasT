@@ -1,5 +1,3 @@
-
-
 .navbar-brand {
     height: 10%;
     line-height: 180%;
@@ -46,7 +44,7 @@ footer .textH4{
 }
 
 .container{
-    padding-top:15%;
+    padding-top:9%;
     padding-bottom:8%;
 }
 
@@ -59,6 +57,7 @@ footer .textH4{
     font-family: 'Modern Antiqua', cursive;
     font-size: 250%;
 }
+
 .container .textBoton{
     font-family: 'Philosopher', sans-serif;
     font-size: 140%;
@@ -84,9 +83,49 @@ section.sections1{
     background-color: #E6E6E6;
     background: linear-gradient(to bottom right, #FFF, #E6E6E6);
 }
+
 .btn-default{
     border-color: #717374;
+    font-family: 'Philosopher', sans-serif;
+background: linear-gradient(to bottom right, #CECEF6, #FFF);
 }
+
 .btn-default:hover{
     border-color: #717374;
+}
+
+.containerB {
+  position: relative;
+}
+
+.containerB .btn {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #819FF7;
+}
+
+.containerB:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family: 'Modern Antiqua', cursive;
 }

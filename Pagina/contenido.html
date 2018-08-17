@@ -23,7 +23,7 @@
 
     <body>
         <!-- Barra de navegación -->
-        <nav class="navbar navbar-inverse navbar-fixed-top">
+        <nav class="navbar navbar-inverse">
             <div class="container-fluid">
 
                 <div class="navbar-header">
@@ -57,13 +57,20 @@
                 </div>
 
                 <div class="col-md-6">
-                    <button type="button" class="btn btn-default btn-block" data-toggle="modal" data-target="#modal1"><h2 class="textBoton text-center">Patrón arquitectural MVC</h2></button>
+                    <div class="containerB">
+                    <button type="button" class="btn btn-default btn-block" data-toggle="modal" data-target="#modal1">
+                        <h2 class="textBoton text-center">Patron arquitectural MVC</h2></button>
+                     <div class="overlay" data-toggle="modal" data-target="#modal1">
+                        <div class="text">¿Quieres saber más?</div>
+                      </div>
+                    </div>
+                    
                     <hr class="light my-4">
                     <br>
                     <ul class="textUl">
                         <li>
                             Generalidades de Estilos y
-                            patrones arquitectónicos
+                            patrones arquitectónicos.
                         </li>
                         <li>
                             Patrón arquitectónico
@@ -75,14 +82,19 @@
                         </li>
                         <li>
                             Repositorios (Git haciendo
-                            uso de Github)
-
+                            uso de Github).
                         </li>
                     </ul>
                 </div>
 
                 <div class="col-md-6">
-                    <button type="button" class="btn btn-default btn-block" data-toggle="modal" data-target="#modal2"><h2 class="textBoton text-center">Modelo utilizando JPA</h2></button>
+                    <div class="containerB">
+                    <button type="button" class="btn btn-default btn-block" data-toggle="modal" data-target="#modal2">
+                        <h2 class="textBoton text-center">Modelo utilizando JPA</h2></button>
+                    <div class="overlay" data-toggle="modal" data-target="#modal2">
+                        <div class="text">¿Quieres saber más?</div>
+                      </div>
+                    </div>
                     
                     <hr class="light my-4">
                     <br>
@@ -112,7 +124,14 @@
             <div class="container">
 
                 <div class="col-md-6">
-                    <button type="button" class="btn btn-default btn-block" data-toggle="modal" data-target="#modal3"><h2 class="textBoton text-center">Controladores: REST, EJB, PATRONES (DAO/DTO)</h2></button>
+                    <div class="containerB">
+                    <button type="button" class="btn btn-default btn-block" data-toggle="modal" data-target="#modal3">
+                        <h2 class="textBoton text-center">Controladores: REST, EJB, PATRONES (DAO/DTO)</h2></button>
+                      <div class="overlay" data-toggle="modal" data-target="#modal3">
+                        <div class="text">¿Quieres saber más?</div>
+                      </div>
+                    </div>
+                
                     <hr class="light my-4">
                     <br>
                     <ul class="textUl">
@@ -139,7 +158,13 @@
                 </div>
 
                 <div class="col-md-6">
-                       <button type="button" class="btn btn-default btn-block" data-toggle="modal" data-target="#modal4"><h2 class="textBoton text-center">Vista: HTML/CSS/JS (Jquery, Angular)</h2></button>
+                    <div class="containerB">
+                       <button type="button" class="btn btn-default btn-block" data-toggle="modal" data-target="#modal4">
+                           <h2 class="textBoton text-center">Vista: HTML/CSS/JS (Jquery, Angular)</h2></button>
+                      <div class="overlay" data-toggle="modal" data-target="#modal4">
+                        <div class="text">¿Quieres saber más?</div>
+                      </div>
+                    </div>
                     
                     <hr class="light my-4">
                     <br>
@@ -169,7 +194,13 @@
             <div class="container">
 
                 <div class="col-md-6">
-                    <button type="button" class="btn btn-default btn-block" data-toggle="modal" data-target="#modal5"><h2 class="textBoton text-center">Python/Django</h2></button>
+                    <div class="containerB">
+                    <button type="button" class="btn btn-default btn-block" data-toggle="modal" data-target="#modal5">
+                        <h2 class="textBoton text-center">Python/Django</h2></button>
+                      <div class="overlay" data-toggle="modal" data-target="#modal5">
+                        <div class="text">¿Quieres saber más?</div>
+                      </div>
+                    </div>
                     
                     <hr class="light my-4">
                     <br>
@@ -202,7 +233,9 @@
                         <div>
                             <div class="col-md-8">
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae mattis enim. Phasellus laoreet laoreet est quis feugiat. Vestibulum a malesuada lectus. Nullam sagittis urna vel libero finibus, sit amet vestibulum dui euismod. Phasellus ut massa non metus luctus placerat in nec odio. In convallis, mauris sit amet accumsan commodo, orci magna fringilla enim, sed consectetur magna sem sed magna. In vel nibh erat.
+                                <b>Modelo-vista-controlador (MVC)</b> es un patrón de arquitectura de software, que separa los datos y la lógica de negocio de una aplicación de su representación y el módulo encargado de gestionar los eventos y las comunicaciones. Para ello MVC propone la construcción de tres componentes distintos que son el modelo, la vista y el controlador, es decir, por un lado define componentes para la representación de la información, y por otro lado para la interacción del usuario.
+                            <br>
+                                Este patrón de arquitectura de software se basa en las ideas de reutilización de código y la separación de conceptos, características que buscan facilitar la tarea de desarrollo de aplicaciones y su posterior mantenimiento.
                             </p>
                             </div>
                             <div class="col-md-4 ">
@@ -223,40 +256,6 @@
             </div>
         </div>
 
-        <!-- Modal 1-->
-
-        <div id="modal1" class="modal fade" role="dialog">
-            <div class="modal-dialog modal-lg">
-
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal"><i class="fas fa-times"></i></button>
-                        <h4 class="modal-title">Patrón arquitectural MVC</h4>
-                    </div>
-                    <div class="modal-body">
-                        <div>
-                            <div class="col-md-8">
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae mattis enim. Phasellus laoreet laoreet est quis feugiat. Vestibulum a malesuada lectus. Nullam sagittis urna vel libero finibus, sit amet vestibulum dui euismod. Phasellus ut massa non metus luctus placerat in nec odio. In convallis, mauris sit amet accumsan commodo, orci magna fringilla enim, sed consectetur magna sem sed magna. In vel nibh erat.
-                            </p>
-                            </div>
-                            <div class="col-md-4 ">
-                                <img class="img-responsive" src="img/mvc.png" alt="Nuevas_tecnologías"  width="300" height="300">
-                            </div>      
-
-
-                        </div>
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-
-
-
-                    </div>
-                    <div class="modal-footer">
-                    </div>
-                </div>
-
-            </div>
-        </div>
 
         <!-- Modal 2-->
 
@@ -272,7 +271,7 @@
                         <div>
                             <div class="col-md-8">
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae mattis enim. Phasellus laoreet laoreet est quis feugiat. Vestibulum a malesuada lectus. Nullam sagittis urna vel libero finibus, sit amet vestibulum dui euismod. Phasellus ut massa non metus luctus placerat in nec odio. In convallis, mauris sit amet accumsan commodo, orci magna fringilla enim, sed consectetur magna sem sed magna. In vel nibh erat.
+                                <b>JPA</b> representa una simplificación del modelo de programación de persistencia. La especificación JPA define explícitamente la correlación relacional de objetos, en lugar de basarse en implementaciones de correlación específicas del proveedor. JPA crea un estándar para la importante tarea de la correlación relacional de objetos mediante la utilización de anotaciones o XML para correlacionar objetos con una o más tablas de una base de datos.
                             </p>
                             </div>
                             <div class="col-md-4 ">
@@ -307,7 +306,11 @@
                         <div>
                             <div class="col-md-8">
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae mattis enim. Phasellus laoreet laoreet est quis feugiat. Vestibulum a malesuada lectus. Nullam sagittis urna vel libero finibus, sit amet vestibulum dui euismod. Phasellus ut massa non metus luctus placerat in nec odio. In convallis, mauris sit amet accumsan commodo, orci magna fringilla enim, sed consectetur magna sem sed magna. In vel nibh erat.
+                                Si tiene aplicaciones <b>EJB (Enterprise JavaBeans)</b> que se exponen utilizando una vista de interfaz local, puede exponer una instancia <b>RESTful al enterprise bean utilizando JAX-RS (API Java para servicios web RESTful).</b> Mediante la implementación de enterprise beans JAX-RS anotados, puede mantener la funcionalidad EJB incluyendo el soporte de transacciones, la inyección de componentes y recursos Java EE y otras funciones de bean de sesión EJB.
+                            <br><br>
+                            Un patrón de diseño es una solución probada que resuelve un tipo específico de problema en el desarrollo de software referente al diseño. 
+                                <br>    <b>EL PATRÓN DATA ACCES OBJECT (DAO).</b> <br>El problema que viene a resolver este patrón es netamente el acceso a los datos, que básicamente tiene que ver con la gestión de diversas fuentes de datos y además abstrae la forma de acceder a ellos.
+                                <br>    <b>EL PATRÓN DATA TRANSFER OBJECT (DTO/VO).</b><br> Va de la mano con el patrón de diseño DAO, se utiliza para transferir varios atributos entre el cliente y el servidor o viceversa.
                             </p>
                             </div>
                             <div class="col-md-4 ">
@@ -342,7 +345,11 @@
                         <div>
                             <div class="col-md-8">
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae mattis enim. Phasellus laoreet laoreet est quis feugiat. Vestibulum a malesuada lectus. Nullam sagittis urna vel libero finibus, sit amet vestibulum dui euismod. Phasellus ut massa non metus luctus placerat in nec odio. In convallis, mauris sit amet accumsan commodo, orci magna fringilla enim, sed consectetur magna sem sed magna. In vel nibh erat.
+                            Los Professional Frontend Developers son los encargados de maquetar la estructura semántica del contenido (HTML), codificar el diseño en hojas de estilo (CSS) y agregar la interacción con el usuario (Javascript).
+                                <br>
+                            <b>JQuery</b> es una librería de JavaScript. Esta librería de código abierto, simplifica la tarea de programar en JavaScript y permite agregar interactividad a un sitio web sin tener conocimientos del lenguaje.
+                                <br>
+                            <b>AngularJS</b> es un framework de JavaScript de código abierto, mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página. Su objetivo es aumentar las aplicaciones basadas en navegador con capacidad de Modelo Vista Controlador (MVC), en un esfuerzo para hacer que el desarrollo y las pruebas sean más fáciles.
                             </p>
                             </div>
                             <div class="col-md-4 ">
@@ -378,7 +385,9 @@
                         <div>
                             <div class="col-md-8">
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae mattis enim. Phasellus laoreet laoreet est quis feugiat. Vestibulum a malesuada lectus. Nullam sagittis urna vel libero finibus, sit amet vestibulum dui euismod. Phasellus ut massa non metus luctus placerat in nec odio. In convallis, mauris sit amet accumsan commodo, orci magna fringilla enim, sed consectetur magna sem sed magna. In vel nibh erat.
+                            <b>Python</b> es un lenguaje de programación interpretado cuya filosofía hace hincapié en una sintaxis que favorezca un código legible. Se trata de un lenguaje de programación multiparadigma, ya que soporta orientación a objetos, programación imperativa y, en menor medida, programación funcional. Es un lenguaje interpretado, usa tipado dinámico y es multiplataforma.
+                                <br>
+                            <b>Django</b> es un framework de desarrollo web de código abierto, escrito en Python, que respeta el patrón de diseño conocido como Modelo–vista–template. La meta fundamental de Django es facilitar la creación de sitios web complejos. Django pone énfasis en el re-uso, la conectividad y extensibilidad de componentes, el desarrollo rápido y el principio No te repitas (DRY, del inglés Don't Repeat Yourself).
                             </p>
                             </div>
                             <div class="col-md-4 ">
@@ -400,17 +409,7 @@
         </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
+        
 
         <!-- Footer -->
         <footer class="pieDePagina">
