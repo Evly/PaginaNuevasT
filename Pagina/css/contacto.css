@@ -9,20 +9,24 @@ body{
     height: 10%;
     line-height: 180%;
     padding: 10px;
-
-
 }
 
 .navbar-nav li a{
     height: 10%;
     line-height: 350%;
-
 }
+
 .navbar { 
     font-family: 'Modern Antiqua', cursive;
     font-size: 110%;
     padding-bottom: 0;
     margin-bottom: 0;
+}
+
+.btn {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 110%;
+    background: linear-gradient(to bottom right, #F8E0E0, #FFF);
 }
 
 .pieDePagina{
